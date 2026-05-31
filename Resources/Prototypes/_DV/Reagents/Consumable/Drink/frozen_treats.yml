@@ -1,0 +1,518 @@
+- type: reagent
+  id: BaseDrinkFrozenTreat
+  parent: BaseDrink
+  abstract: true
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  footstepSound:
+    collection: FootstepSlime
+
+
+- type: reagent
+  id: Caramel
+  name: reagent-name-caramel
+  parent: BaseDrink
+  desc: reagent-desc-caramel
+  physicalDesc: reagent-physical-desc-syrupy
+  flavor: sweet
+  color: "#F39E33"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 1
+
+- type: reagent
+  id: ChoppedNuts
+  name: reagent-name-chopped-nuts
+  parent: BaseDrink
+  desc: reagent-desc-chopped-nuts
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: nutty
+  color: "#F1BB24"
+  recognizable: true
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateHunger
+        factor: 1
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/chopped-nuts.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamAppleCaramel
+  name: reagent-name-icecream-apple-caramel
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-apple-caramel
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-apple-caramel
+  color: "#F9CD85"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamAppleCaramel
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-applecaramel.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamCaramel
+  name: reagent-name-icecream-caramel
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-caramel
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: sweet
+  color: "#F9CD85"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-caramel.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamCaramelFudge
+  name: reagent-name-icecream-caramel-fudge
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-caramel-fudge
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-caramel-fudge
+  color: "#C06B20"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamCaramelFudge
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-caramelfudge.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamCherry
+  name: reagent-name-icecream-cherry
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-cherry
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: cherry
+  color: "#FF8888"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-cherry.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamChocolate
+  name: reagent-name-icecream-chocolate
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-chocolate
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: chocolate
+  color: "#664300"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-chocolate.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamBerryCobbler
+  name: reagent-name-icecream-cobbler
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-cobbler
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-cobbler
+  color: "#FF8888"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-cobblers.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamCoffee
+  name: reagent-name-icecream-coffee
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-coffee
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: coffee
+  color: "#664300"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:ModifyStatusEffect
+        effectProto: StatusEffectDrowsiness
+        time: 2
+        type: Remove
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-coffee.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamCookieDough
+  name: reagent-name-icecream-cookiedough
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-cookiedough
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-cookiedough
+  color: "#FFFBD6"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamCookieDough
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-cookiedough.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamGreenTea
+  name: reagent-name-icecream-greentea
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-greentea
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: tea
+  color: "#7EB626"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamGreenTea
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-greentea.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamMint
+  name: reagent-name-icecream-mint
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-mint
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: minty
+  color: "#A3F979"
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-mint.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamNeapolitan
+  name: reagent-name-icecream-neapolitan
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-neapolitan
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-neapolitan
+  color: "#FFFBD6"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-neapolitan.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamPistachio
+  name: reagent-name-icecream-pistachio
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-pistachio
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: nutty
+  color: "#99B334"
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-pistachio.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamRockyRoad
+  name: reagent-name-icecream-rockyroad
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-rockyroad
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-rockyroad
+  color: "#664300"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+      - !type:SatiateThirst
+        factor: 2
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamRockyRoad
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-rockyroad.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamTower
+  name: reagent-name-icecream-tower
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-tower
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-icecream-tower
+  color: "#EDC392"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
+      - !type:SatiateHunger
+        factor: 2
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentCondition
+            reagent: IceCreamTower
+            min: 20
+        damage:
+          types:
+            Cold: 6
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-tower.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamVegan
+  name: reagent-name-icecream-vegan
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-vegan
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-ice-cream
+  color: "#FFFBD6"
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-vegan.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamWatermelon
+  name: reagent-name-icecream-watermelon
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-icecream-watermelon
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-watermelon
+  color: "#EFBE6C"
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-watermelon.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSherbetRainbow
+  name: reagent-name-sherbet-rainbow
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-rainbow
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-sherbet-rainbow
+  color: "#D6CE58"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:SatiateHunger
+        factor: 1
+      - !type:HealthChange
+        conditions:
+          - !type:ReagentCondition
+            reagent: IceCreamSherbetRainbow
+            min: 20
+        damage:
+          types:
+            Cold: 4
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-rainbow.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSherbetLemon
+  name: reagent-name-sherbet-lemon
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-lemon
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-gin-fizz
+  color: "#FFE93F"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-lemon.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSherbetLime
+  name: reagent-name-sherbet-lime
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-lime
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-tart
+  color: "#ABFF24"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-lime.rsi
+    state: icon_empty
+
+
+- type: reagent
+  id: IceCreamSherbetOrange
+  name: reagent-name-sherbet-orange
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-orange
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: orange
+  color: "#FEAF54"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-orange.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSherbetPineapple
+  name: reagent-name-sherbet-pineapple
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-pineapple
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-blue-hawaiian
+  color: "#FFED69"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-pineapple.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSherbetRaspberry
+  name: reagent-name-sherbet-raspberry
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-sherbet-raspberry
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: berry
+  color: "#F398CB"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-raspberry.rsi
+    state: icon_empty
+
+- type: reagent
+  id: SlushBlueRaspberry
+  name: reagent-name-slush-blue-raspberry
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-slush-blue-raspberry
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: berry
+  color: "#2FF0FE"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/slush-blueraspberry.rsi
+    state: icon_empty
+
+- type: reagent
+  id: SlushCherry
+  name: reagent-name-slush-cherry
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-slush-cherry
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: cherry
+  color: "#FFE7E7"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/slush-cherry.rsi
+    state: icon_empty
+
+- type: reagent
+  id: SlushCola
+  name: reagent-name-slush-cola
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-slush-cola
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: cola
+  color: "#FFE7E7"
+  recognizable: true
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/slush-cola.rsi
+    state: icon_empty
+
+- type: reagent
+  id: IceCreamSundaeTropical
+  name: reagent-name-tropical-sunday
+  parent: BaseDrinkFrozenTreat
+  desc: reagent-desc-tropical-sunday
+  physicalDesc: reagent-physical-desc-creamy
+  flavor: flavor-complex-painkiller
+  color: "#FFD376"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:SatiateHunger
+        factor: 1
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: IceCreamSundaeTropical
+          min: 20
+        damage:
+          types:
+            Cold: 2
+  metamorphicSprite:
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/tropicalsunday.rsi
+    state: icon_empty

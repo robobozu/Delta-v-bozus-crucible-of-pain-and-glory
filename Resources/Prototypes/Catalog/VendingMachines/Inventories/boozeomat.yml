@@ -51,6 +51,7 @@
     DrinkBeerCan: 5
     DrinkWineCan: 5
     DrinkAngobittersBottleFull: 3 # DeltaV - Angostura Bitters Bottle
+    BottleChoppedNuts: 5 # DeltaV - Chopped nuts; Here as a stop-gap until we make pistachios growable
   contrabandInventory:
     ChemistryBottleEthanol: 3
     DrinkBottleOfNothingFull: 1

@@ -736,3 +736,15 @@
     sprite: _DV/Clothing/Uniforms/Jumpsuit/WrestlerCostumeBlue.rsi
   - type: Clothing
     sprite: _DV/Clothing/Uniforms/Jumpsuit/WrestlerCostumeBlue.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSodaJerk
+  name: Soda Jerk
+  description: Now I'm a jerk, and now everyone loves me!
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/SodaJerk.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/SodaJerk.rsi
