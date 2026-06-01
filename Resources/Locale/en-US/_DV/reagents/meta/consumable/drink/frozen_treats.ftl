@@ -41,7 +41,7 @@ reagent-name-icecream-pistachio = pistachio ice cream
 reagent-desc-icecream-pistachio = For the real ice cream nuts.
 
 reagent-name-icecream-rockyroad = rocky road ice cream
-eagent-desc-icecream-rockyroad = It's an ice cream with a rough texture and rich flavor.
+reagent-desc-icecream-rockyroad = It's an ice cream with a rough texture and rich flavor.
 
 reagent-name-icecream-tower = tower of ice cream
 reagent-desc-icecream-tower = Babel has met its match.

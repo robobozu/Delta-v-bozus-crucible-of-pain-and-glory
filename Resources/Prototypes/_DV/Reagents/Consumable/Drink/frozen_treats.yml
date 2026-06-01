@@ -9,7 +9,6 @@
   footstepSound:
     collection: FootstepSlime
 
-
 - type: reagent
   id: Caramel
   name: reagent-name-caramel
@@ -52,7 +51,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-apple-caramel
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-apple-caramel
+  flavor: icecreamapplecaramel
   color: "#F9CD85"
   recognizable: true
   metabolisms:
@@ -91,7 +90,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-caramel-fudge
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-caramel-fudge
+  flavor: icecreamcaramelfudge
   color: "#C06B20"
   recognizable: true
   metabolisms:
@@ -149,7 +148,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-cobbler
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-cobbler
+  flavor: icecreamcobbler
   color: "#FF8888"
   recognizable: true
   metamorphicSprite:
@@ -185,7 +184,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-cookiedough
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-cookiedough
+  flavor: icecreamcookiedough
   color: "#FFFBD6"
   recognizable: true
   metabolisms:
@@ -248,7 +247,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-neapolitan
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-neapolitan
+  flavor: icecreamneapolitan
   color: "#FFFBD6"
   recognizable: true
   metabolisms:
@@ -279,7 +278,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-rockyroad
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-rockyroad
+  flavor: icecreamrockyroad
   color: "#664300"
   recognizable: true
   metabolisms:
@@ -308,7 +307,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-tower
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-icecream-tower
+  flavor: icecreamtower
   color: "#EDC392"
   recognizable: true
   metabolisms:
@@ -339,7 +338,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-vegan
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-ice-cream
+  flavor: icecream
   color: "#FFFBD6"
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-vegan.rsi
@@ -351,7 +350,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-icecream-watermelon
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-watermelon
+  flavor: watermelon
   color: "#EFBE6C"
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-watermelon.rsi
@@ -363,7 +362,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-sherbet-rainbow
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-sherbet-rainbow
+  flavor: icecreamrainbow
   color: "#D6CE58"
   recognizable: true
   metabolisms:
@@ -391,7 +390,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-sherbet-lemon
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-gin-fizz
+  flavor: ginfizz
   color: "#FFE93F"
   recognizable: true
   metamorphicSprite:
@@ -404,7 +403,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-sherbet-lime
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-tart
+  flavor: tart
   color: "#ABFF24"
   recognizable: true
   metamorphicSprite:
@@ -431,7 +430,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-sherbet-pineapple
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-blue-hawaiian
+  flavor: bluehawaiian
   color: "#FFED69"
   recognizable: true
   metamorphicSprite:
@@ -496,7 +495,7 @@
   parent: BaseDrinkFrozenTreat
   desc: reagent-desc-tropical-sunday
   physicalDesc: reagent-physical-desc-creamy
-  flavor: flavor-complex-painkiller
+  flavor: painkiller
   color: "#FFD376"
   recognizable: true
   metabolisms:

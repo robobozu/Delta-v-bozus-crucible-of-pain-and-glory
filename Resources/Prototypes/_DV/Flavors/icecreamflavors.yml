@@ -1,0 +1,44 @@
+- type: flavor
+  id: tart
+  flavorType: Complex
+  description: flavor-complex-tart
+
+- type: flavor
+  id: icecreamapplecaramel
+  flavorType: Complex
+  description: flavor-complex-icecream-apple-caramel
+
+- type: flavor
+  id: icecreamcaramelfudge
+  flavorType: Complex
+  description: flavor-complex-icecream-caramel-fudge
+
+- type: flavor
+  id: icecreamcobbler
+  flavorType: Complex
+  description: flavor-complex-icecream-cobbler
+
+- type: flavor
+  id: icecreamcookiedough
+  flavorType: Complex
+  description: flavor-complex-icecream-cookiedough
+
+- type: flavor
+  id: icecreamneapolitan
+  flavorType: Complex
+  description: flavor-complex-icecream-neapolitan
+
+- type: flavor
+  id: icecreamtower
+  flavorType: Complex
+  description: flavor-complex-icecream-tower
+
+- type: flavor
+  id: icecreamrockyroad
+  flavorType: Complex
+  description: flavor-complex-icecream-tower
+
+- type: flavor
+  id: icecreamrainbow
+  flavorType: Complex
+  description: flavor-complex-icecream-rainbow
