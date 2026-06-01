@@ -2,6 +2,7 @@
   id: BaseDrinkFrozenTreat
   parent: BaseDrink
   abstract: true
+  group: FrozenTreats
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
