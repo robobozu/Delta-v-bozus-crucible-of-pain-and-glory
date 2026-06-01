@@ -66,7 +66,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-applecaramel.rsi
     state: icon_empty
@@ -105,7 +105,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-caramelfudge.rsi
     state: icon_empty
@@ -199,7 +199,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-cookiedough.rsi
     state: icon_empty
@@ -224,7 +224,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-greentea.rsi
     state: icon_empty
@@ -296,7 +296,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/icecream-rockyroad.rsi
     state: icon_empty
@@ -324,7 +324,7 @@
             min: 20
         damage:
           types:
-            Cold: 6
+            Cold: .5
       - !type:AdjustReagent
         reagent: Theobromine
         amount: 0.05
@@ -379,7 +379,7 @@
             min: 20
         damage:
           types:
-            Cold: 4
+            Cold: .25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/sherbet-rainbow.rsi
     state: icon_empty
@@ -512,7 +512,7 @@
           min: 20
         damage:
           types:
-            Cold: 2
+            Cold: 0.25
   metamorphicSprite:
     sprite: _DV/Objects/Consumable/Drinks/frozen_treats/tropicalsunday.rsi
     state: icon_empty
