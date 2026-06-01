@@ -447,7 +447,7 @@
   loadouts:
   - BartenderHead
   - BartenderBowler
-  - ClothingHeadHatSodaJerkCap #DV - Adding retro style outfit for ice cream connoisseurs
+  - SodaJerkCap #DV - Adding retro style outfit for ice cream connoisseurs
 
 - type: loadoutGroup
   id: BartenderJumpsuit
@@ -462,7 +462,7 @@
   - ClothingUniformSeniorBartender
   - ClothingUniformSeniorBartenderSkirt
   # End Imp additions
-  - ClothingUniformJumpsuitSodaJerk #DV - Adding retro style outfit for ice cream connoisseurs
+  - SodaJerkUniform #DV - Adding retro style outfit for ice cream connoisseurs
 
 - type: loadoutGroup
   id: BartenderOuterClothing

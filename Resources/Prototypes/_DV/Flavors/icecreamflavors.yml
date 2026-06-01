@@ -29,12 +29,12 @@
   description: flavor-complex-icecream-neapolitan
 
 - type: flavor
-  id: icecreamtower
+  id: icecreamrockyroad
   flavorType: Complex
-  description: flavor-complex-icecream-tower
+  description: flavor-complex-icecream-rockyroad
 
 - type: flavor
-  id: icecreamrockyroad
+  id: icecreamtower
   flavorType: Complex
   description: flavor-complex-icecream-tower
 
