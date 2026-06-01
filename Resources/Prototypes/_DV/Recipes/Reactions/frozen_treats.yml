@@ -86,10 +86,8 @@
 - type: reaction
   id: IceCreamCookieDough
   reactants:
-    IceCream:
+    IceCreamChocolate:
       amount: 2
-    CocoaPowder:
-      amount: 1
     Flour:
       amount: 1
   products:
