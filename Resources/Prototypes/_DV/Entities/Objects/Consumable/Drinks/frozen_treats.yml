@@ -416,9 +416,9 @@
     state: icon
 
 # Stop-gap for making chopped nuts available; In a later edition, going to make pistachios growable and grindable
-# to get chopped nuts.
+# to get chopped nuts (including grinding Sweeties packs)
 - type: entity
-  id: BottleChoppedNuts
+  id: GlassChoppedNuts
   parent: DrinkGlass
   suffix: chopped nuts
   components:
