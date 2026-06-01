@@ -2,13 +2,11 @@
     "version": 1,
     "license": "CC-BY-SA-3.0",
     "copyright": "Made by Sal_DragonsNOA for SS14. Cup pallete taken from smokevampire on Discord.",
-    "size":
-    {
+    "size": {
         "x": 32,
         "y": 32
     },
-    "states":
-    [
+    "states": [
         {
             "name": "icon"
         },
