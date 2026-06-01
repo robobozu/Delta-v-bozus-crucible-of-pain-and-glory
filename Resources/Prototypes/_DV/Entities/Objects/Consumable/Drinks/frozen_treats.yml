@@ -412,7 +412,7 @@
         - ReagentId: IceCreamSundaeTropical
           Quantity: 30
   - type: Icon
-    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/TropicalSunday.rsi
+    sprite: _DV/Objects/Consumable/Drinks/frozen_treats/tropicalsunday.rsi
     state: icon
 
 # Stop-gap for making chopped nuts available; In a later edition, going to make pistachios growable and grindable
