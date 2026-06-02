@@ -2,6 +2,8 @@
   id: Caramel
   minTemp: 350
   reactants:
+    Saline:
+      amount: 1
     Sugar:
       amount: 1
   products:
