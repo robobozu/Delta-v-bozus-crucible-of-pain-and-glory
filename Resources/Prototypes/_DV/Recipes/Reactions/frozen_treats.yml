@@ -7,7 +7,7 @@
     Sugar:
       amount: 2
   products:
-    Caramel: 1
+    Caramel: 1 
 
 - type: reaction
   id: IceCreamAppleCaramel
