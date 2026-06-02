@@ -2,12 +2,10 @@
   id: Caramel
   minTemp: 350
   reactants:
-    Water:
-      amount: 1
     Sugar:
       amount: 1
   products:
-    Caramel: 2
+    Caramel: 1
 
 - type: reaction
   id: IceCreamAppleCaramel
