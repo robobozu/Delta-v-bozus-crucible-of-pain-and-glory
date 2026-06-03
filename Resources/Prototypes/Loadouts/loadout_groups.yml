@@ -588,7 +588,7 @@
   minLimit: 0
   loadouts:
   - ChaplainHead
-  - ChaplainNunHood
+  # - ChaplainNunHood # DV - Keeping things agnostic
   - ChaplainPlagueHat
   - ChaplainWitchHat
   - ChaplainWitchHatAlt
@@ -619,7 +619,7 @@
   minLimit: 0
   loadouts:
   - ChaplainPlagueSuit
-  - ChaplainNunRobe
+  # - ChaplainNunRobe # DV - Keeping things agnostic
   - ChaplainBlackHoodie
   - ChaplainHoodie
 

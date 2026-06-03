@@ -47,30 +47,6 @@
   - !type:TileNotBlocked
 
 - type: construction
-  id: AltarSpaceChristian
-  graph: Altar
-  startNode: start
-  targetNode: spacechristian
-  category: construction-category-furniture
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
-  id: AltarSatana
-  graph: Altar
-  startNode: start
-  targetNode: satana
-  category: construction-category-furniture
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-  - !type:TileNotBlocked
-
-- type: construction
   id: AltarTechnology
   graph: Altar
   startNode: start

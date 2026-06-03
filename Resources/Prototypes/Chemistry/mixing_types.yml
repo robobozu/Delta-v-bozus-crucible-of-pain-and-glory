@@ -49,7 +49,7 @@
   id: Holy
   verbText: mixing-verb-holy
   icon:
-    sprite: Objects/Specific/Chapel/bible.rsi
+    sprite: _DV/Objects/Specific/Chapel/bible.rsi # DV - Made agnosticized version
     state: icon
 
 - type: mixingCategory

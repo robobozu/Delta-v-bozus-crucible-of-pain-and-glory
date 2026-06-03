@@ -234,7 +234,7 @@
   sprite:
     sprite: Objects/Devices/flatpack.rsi
     state: ame-part
-  
+
 - type: stealTargetGroup
   id: ChiefEngineerToolBelt
   name: steal-target-groups-belt-ce
@@ -267,7 +267,7 @@
   id: Bible
   name: steal-target-groups-bible
   sprite:
-    sprite: Objects/Specific/Chapel/bible.rsi
+    sprite: _DV/Objects/Specific/Chapel/bible.rsi # DV - Made agnosticized version
     state: icon
 
 - type: stealTargetGroup

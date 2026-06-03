@@ -18,4 +18,4 @@
   name: tool-quality-bible-name
   toolName: tool-quality-bible-tool-name
   spawn: Bible
-  icon: { sprite: Objects/Specific/Chapel/bible.rsi, state: icon }
+  icon: { sprite: _DV/Objects/Specific/Chapel/bible.rsi, state: icon }

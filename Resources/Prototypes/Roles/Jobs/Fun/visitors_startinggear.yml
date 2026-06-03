@@ -1023,11 +1023,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplain
     shoes: ClothingShoesColorBlack
-    head: ClothingHeadHatHoodNunHood
+    head: ClothingHeadHatWitch # DV - Keeping things agnostic
     id: VisitorPDA
     belt: Bible
     ears: ClothingHeadsetService
-    outerClothing: ClothingOuterNunRobe
+    # outerClothing: ClothingOuterNunRobe # DV - Keeping things agnostic
     pocket1: PlushiePenguin
     pocket2: DrinkCoconutWaterCarton
 

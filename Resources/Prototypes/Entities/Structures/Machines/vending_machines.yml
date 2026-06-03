@@ -1672,7 +1672,7 @@
     normalState: normal-unshaded
     denyState: deny-unshaded
   - type: Sprite
-    sprite: Structures/Machines/VendingMachines/chapdrobe.rsi
+    sprite: _DV/Structures/Machines/VendingMachines/chapdrobe.rsi # DV - Made agnosticized version
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]

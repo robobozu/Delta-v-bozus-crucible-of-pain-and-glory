@@ -1,12 +1,28 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Based off work by IProduceWidgets. Harpy Variant by Adeinitas",
+    "copyright": "Based off work by IProduceWidgets. Harpy Variant by Adeinitas. Agnostic/Order of the Open Hand variants edited from sprites by aforementioned authors.",
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
+        {
+        "name": "equipped-OUTERCLOTHING",
+        "directions": 4
+        },
+        {
+        "name": "equipped-OUTERCLOTHING-reptilian",
+        "directions": 4
+        },
+        {
+        "name": "inhand-left",
+        "directions": 4
+        },
+        {
+        "name": "inhand-right",
+        "directions": 4
+        }
         {
             "name": "equipped-OUTERCLOTHING-harpy",
             "directions": 4

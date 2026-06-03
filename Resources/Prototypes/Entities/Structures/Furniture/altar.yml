@@ -142,9 +142,6 @@
     radius: 1.5
     energy: 1
     color: "#fbceb1"
-  - type: Construction #Nyano
-    graph: Altar
-    node: spacechristian
 
 - type: entity
   id: AltarSatana
@@ -164,9 +161,6 @@
     radius: 1.5
     energy: 1
     color: "#ff6347"
-  - type: Construction #Nyano
-    graph: Altar
-    node: satana
 
 - type: entity
   id: AltarTechnology

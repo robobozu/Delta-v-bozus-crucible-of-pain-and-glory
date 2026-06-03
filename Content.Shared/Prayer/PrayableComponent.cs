@@ -41,6 +41,6 @@ public sealed partial class PrayableComponent : Component
     /// Context menu image
     /// </summary>
     [DataField("verbImage")]
-    [ViewVariables(VVAccess.ReadOnly)]
-    public SpriteSpecifier? VerbImage = new SpriteSpecifier.Texture(new ("/Textures/Interface/pray.svg.png"));
+    [ViewVariables(VVAccess.ReadOnly)]   // DV - Made an agnostic prayer icon
+    public SpriteSpecifier? VerbImage = new SpriteSpecifier.Texture(new ("/Textures/_DV/Interface/VerbIcons/pray-dv.png"));
 }

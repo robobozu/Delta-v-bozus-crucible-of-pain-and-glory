@@ -14,8 +14,8 @@
         - AltarChaos
         - AltarDruid
         - AltarToolbox
-        - AltarSpaceChristian
-        - AltarSatana
+        # - AltarSpaceChristian # DV - Keeping things agnostic
+        # - AltarSatana # DV - Keeping things agnostic
         - AltarTechnology
       offset: 0.0
 
