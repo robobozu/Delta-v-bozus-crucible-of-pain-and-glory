@@ -458,7 +458,7 @@
         - id: SawImprov
         - id: Saw
         - id: Bola
-        - id: Gohei
+        # - id: Gohei # DV - Based on real-world Shinto faith, removing to keep things agnostic
         - id: HypoDart
         - id: WeaponMeleeNeedle
       #Chems

@@ -49,7 +49,7 @@
   id: ClownChameleonOutfit
   job: Clown
   equipment:
-    head: ClothingHeadHatXmasCrown
+    # head: ClothingHeadHatXmasCrown DV - Keeping things agnostic
     eyes: ClothingEyesGlassesCheapSunglasses
     neck: ClothingHeadHatFlowerWreath
     outerClothing: ClothingOuterClownPriest

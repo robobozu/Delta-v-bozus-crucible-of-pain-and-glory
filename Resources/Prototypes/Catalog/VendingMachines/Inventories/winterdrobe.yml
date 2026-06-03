@@ -17,8 +17,6 @@
     ClothingOuterFlannelGreen: 2
     ClothingOuterCoatBomber: 3
     ClothingHeadHatCanadaBeanie: 4
-    ClothingHeadHatSantahat: 2
-    ClothingHeadHatXmasCrown: 2
     # Begin DeltaV additions
     ClothingUniformTurtleneckColorWhite: 2
     ClothingUniformTurtleneckColorGrey: 2
@@ -62,6 +60,10 @@
     ClothingOuterWinterColorBlack: 2
     ClothingOuterWinterColorWhite: 2
     # End DeltaV additions
+    # Begin DeltaV removals
+    # ClothingHeadHatSantahat: 2 - Santa is based on Saint Nicholas of christian faith; Removing to keep things agnostic
+    # ClothingHeadHatXmasCrown: 2 - Christian holiday; Removing to keep things secular
+    # End DeltaV removals
   emaggedInventory:
     ClothingNeckScarfStripedSyndieGreen: 3
     ClothingNeckScarfStripedSyndieRed: 3

@@ -15,8 +15,8 @@
         - ClothingHeadHatWizardFake
         - ClothingHeadHatPirate
         - ClothingHeadHatPlaguedoctor
-        - ClothingHeadHatSantahat
-        - ClothingHeadHatXmasCrown
+        # - ClothingHeadHatSantahat # DV - Keeping things agnostic
+        # - ClothingHeadHatXmasCrown
         - ClothingHeadHelmetCosmonaut
         - ClothingHeadHelmetBasic
         - ClothingHeadHelmetTemplar

@@ -19,6 +19,6 @@
         - UniformSchoolgirlPink
         - UniformSchoolgirlPurple
       chance: 0.85
-      rarePrototypes:
-        - ClothingOuterSuitShrineMaiden
-      rareChance: 0.05
+      # rarePrototypes: # DV - Based on real-world Shinto faith, removing to keep things agnostic.
+      #  - ClothingOuterSuitShrineMaiden
+      # rareChance: 0.05

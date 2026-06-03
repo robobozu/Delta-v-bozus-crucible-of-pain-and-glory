@@ -20,7 +20,7 @@
   startingGear: CluwneGear
   icon: JobIconCluwne
   equipment:
-    head: ClothingHeadHatXmasCrown
+    # head: ClothingHeadHatXmasCrown DV - Keeping things agnostic
     eyes: ClothingEyesBlindfold
     ears: ClothingHeadsetGrey
     neck: ClothingHeadHatFlowerWreath

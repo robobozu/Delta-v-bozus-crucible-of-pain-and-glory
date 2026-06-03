@@ -43,7 +43,7 @@
     ClothingNeckScarfStripedNonBinary: 2
     ClothingNeckScarfStripedRainbow: 2
     ClothingNeckScarfStripedTrans: 2
-    ClothingHeadHatXmasCrown: 2
+    # ClothingHeadHatXmasCrown: 2 DV - Keeping things agnostic, seriously what is this Christian stuff doing in the PrideVend?
     BedsheetRainbow: 2
     ClothingMultipleHeadphones: 2
     ClothingHeadHatFlowerWreath: 2

@@ -20,8 +20,6 @@
     ClothingHeadHatPwig: 2
     ClothingOuterRobesJudge: 2
     ClothingOuterPoncho: 2
-    ClothingHeadHatSantahat: 2
-    ClothingOuterSanta: 2
     ClothingHeadHatSkub: 2
     ClothingOuterSkub: 2
     ClothingHeadHatBeretFrench: 2
@@ -31,9 +29,7 @@
     ClothingHeadHatChickenhead: 2
     ClothingOuterSuitMonkey: 2
     ClothingHeadHatPumpkin: 2
-    ClothingHeadHatShrineMaidenWig: 2
-    ClothingOuterSuitShrineMaiden: 2
-    Gohei: 2
+    ClothingHeadHatShrineMaidenWig:
     ClothingOuterSuitWitchRobes: 2
     ClothingHeadHatWitch1: 2
     # Begin DeltaV additions
@@ -149,6 +145,14 @@
     ClothingUniformBrosBlazer: 1
     ClothingUniformBrosBlazerSkirt: 1
     # End Impstation Additions
+    # Begin DeltaV removals (keeping things agnostic)
+    # The below items are based on the real-world Shinto faith, removing them to keep things agnostic
+    # ClothingOuterSuitShrineMaiden: 2
+    # Gohei: 2
+    # Santa is based on Saint Nicholas of the christian faith, keeping things agnostic
+    # ClothingHeadHatSantahat: 2
+    # ClothingOuterSanta: 2
+    # End DeltaV removals
   contrabandInventory:
     ClothingHeadHatRichard: 1
     ToyFigurineBoxer: 1

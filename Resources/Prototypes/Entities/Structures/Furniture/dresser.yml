@@ -230,8 +230,8 @@
       weight: 0.03
     - id: ClothingOuterCoatGentle
       weight: 0.03
-    - id: ClothingOuterSuitShrineMaiden
-      weight: 0.03
+    #- id: ClothingOuterSuitShrineMaiden # DV - Based on real-world Shinto faith; Removing to keep things agnostic
+    #  weight: 0.03
     - id: ClothingOuterClownPriest
       weight: 0.02
     - id: ClothingMaskNeckGaiter
