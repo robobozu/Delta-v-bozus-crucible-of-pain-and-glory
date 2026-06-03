@@ -258,14 +258,13 @@
   description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi # DV - Made agnostic version
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi # DV - Made agnostic version
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
       outerClothing-harpy:
-      - sprite: _DV/Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
         state: equipped-OUTERCLOTHING-harpy
       outerClothing-reptilian:
       - state: equipped-OUTERCLOTHING-reptilian

@@ -901,9 +901,9 @@
   description: A special hardsuit helmet worn by members of an emergency response team.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+    sprite: _DV/Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi # DV - Made agnostic version
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+    sprite: _DV/Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi # DV - Made agnostic version
   - type: PointLight
     color: "#ffffff"
   # Begin DeltaV Additions

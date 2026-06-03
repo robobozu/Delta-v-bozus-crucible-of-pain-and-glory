@@ -271,7 +271,7 @@
   description: A spacious backpack with lots of pockets, worn by Chaplains of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: _DV/Clothing/Back/Backpacks/ertchaplain.rsi # DV - Made an agnostic version
+    sprite: Clothing/Back/Backpacks/ertchaplain.rsi
 
 - type: entity
   parent: ClothingBackpackERTSecurity
