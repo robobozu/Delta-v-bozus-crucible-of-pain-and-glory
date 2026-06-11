@@ -51,7 +51,7 @@
   name: reagent-name-icecream-apple-caramel
   desc: reagent-desc-icecream-apple-caramel
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamapplecaramel
+  flavor: IceCreamAppleCaramel
   color: "#F9CD85"
   recognizable: true
   metabolisms:
@@ -90,7 +90,7 @@
   name: reagent-name-icecream-caramel-fudge
   desc: reagent-desc-icecream-caramel-fudge
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamcaramelfudge
+  flavor: IceCreamCaramelFudge
   color: "#C06B20"
   recognizable: true
   metabolisms:
@@ -148,7 +148,7 @@
   name: reagent-name-icecream-cobbler
   desc: reagent-desc-icecream-cobbler
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamcobbler
+  flavor: IceCreamCobbler
   color: "#FF8888"
   recognizable: true
   metamorphicSprite:
@@ -184,7 +184,7 @@
   name: reagent-name-icecream-cookiedough
   desc: reagent-desc-icecream-cookiedough
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamcookiedough
+  flavor: IceCreamCookieDough
   color: "#FFFBD6"
   recognizable: true
   metabolisms:
@@ -247,7 +247,7 @@
   name: reagent-name-icecream-neapolitan
   desc: reagent-desc-icecream-neapolitan
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamneapolitan
+  flavor: IceCreamNeapolitan
   color: "#FFFBD6"
   recognizable: true
   metabolisms:
@@ -278,7 +278,7 @@
   name: reagent-name-icecream-rockyroad
   desc: reagent-desc-icecream-rockyroad
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamrockyroad
+  flavor: IceCreamRockyRoad
   color: "#664300"
   recognizable: true
   metabolisms:
@@ -307,7 +307,7 @@
   name: reagent-name-icecream-tower
   desc: reagent-desc-icecream-tower
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamtower
+  flavor: IceCreamTower
   color: "#EDC392"
   recognizable: true
   metabolisms:
@@ -362,7 +362,7 @@
   name: reagent-name-sherbet-rainbow
   desc: reagent-desc-sherbet-rainbow
   physicalDesc: reagent-physical-desc-creamy
-  flavor: icecreamrainbow
+  flavor: IceCreamRainbow
   color: "#D6CE58"
   recognizable: true
   metabolisms:
