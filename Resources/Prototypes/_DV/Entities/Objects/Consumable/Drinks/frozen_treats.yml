@@ -23,7 +23,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamCaramel
           Quantity: 30
@@ -39,7 +38,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamCaramelFudge
           Quantity: 30
@@ -55,7 +53,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamCherry
           Quantity: 30
@@ -71,7 +68,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamChocolate
           Quantity: 30
@@ -87,7 +83,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamBerryCobbler
           Quantity: 30
@@ -103,7 +98,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamCoffee
           Quantity: 30
@@ -119,7 +113,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamCookieDough
           Quantity: 30
@@ -135,7 +128,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamGreenTea
           Quantity: 30
@@ -151,7 +143,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamMint
           Quantity: 30
@@ -167,7 +158,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamNeapolitan
           Quantity: 30
@@ -183,7 +173,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamPistachio
           Quantity: 30
@@ -199,7 +188,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamRockyRoad
           Quantity: 30
@@ -215,7 +203,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamTower
           Quantity: 30
@@ -231,7 +218,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamVegan
           Quantity: 30
@@ -247,7 +233,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamWatermelon
           Quantity: 30
@@ -263,7 +248,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetRainbow
           Quantity: 30
@@ -279,7 +263,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetLemon
           Quantity: 30
@@ -295,7 +278,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetLime
           Quantity: 30
@@ -311,7 +293,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetOrange
           Quantity: 30
@@ -327,7 +308,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetPineapple
           Quantity: 30
@@ -343,7 +323,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSherbetRaspberry
           Quantity: 30
@@ -359,7 +338,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: SlushBlueRaspberry
           Quantity: 30
@@ -375,7 +353,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: SlushCherry
           Quantity: 30
@@ -391,7 +368,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: SlushCola
           Quantity: 30
@@ -407,7 +383,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamSundaeTropical
           Quantity: 30
@@ -427,7 +402,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: ChoppedNuts
           Quantity: 30

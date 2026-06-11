@@ -96,7 +96,6 @@ candy-flavor-profile = This one is supposed to taste {$flavor}.
 candy-flavor-profile-multiple = This one is supposed to taste {$flavors} and {$lastFlavor}.
 candy-flavor-profile-unknown = You have no idea what this one is supposed to taste like.
 
-# DV - I SCREAM, YOU SCREAM, WE ALL SCREAM FOR etc.
 flavor-complex-tart = tart
 flavor-complex-icecream-apple-caramel = like apple pie
 flavor-complex-icecream-caramel-fudge = like a liquid caramel brownie

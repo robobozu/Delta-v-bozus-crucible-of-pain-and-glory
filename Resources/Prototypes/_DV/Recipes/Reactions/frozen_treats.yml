@@ -12,10 +12,8 @@
 - type: reaction
   id: IceCreamAppleCaramel
   reactants:
-    IceCream:
-      amount: 2
-    Caramel:
-      amount: 1
+    IceCreamCaramel:
+      amount: 3
     JuiceApple:
       amount: 1
   products:
