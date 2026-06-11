@@ -15,8 +15,7 @@
   name: guide-entry-drinks
   text: "/ServerInfo/Guidebook/ReferenceTables/Drinks.xml"
   filterEnabled: true
-  # Delta V: Adding section for our new ice cream catalog to make it easier to search
-  children:
+  children: # DeltaV - Adding section for our new ice cream catalog to make it easier to search
     - FrozenTreats
 
 - type: guideEntry
