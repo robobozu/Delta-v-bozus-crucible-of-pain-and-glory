@@ -741,7 +741,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSodaJerk
-  name: Soda Jerk
+  name: soda jerk jumpsuit
   description: Now I'm a jerk, and now everyone loves me!
   components:
   - type: Sprite
