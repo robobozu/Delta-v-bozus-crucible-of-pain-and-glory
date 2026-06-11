@@ -54,7 +54,7 @@
     DrinkAngobittersBottleFull: 3 # Angostura Bitters Bottle
     DrinkCaramelBottleFull: 3 # Caramel for ice cream stuff
     GlassChoppedNuts: 5 # Metaglass of chopped nuts; Here as a stop-gap until we make pistachios growable
-    # End Delta V
+    # End DeltaV additions
   contrabandInventory:
     ChemistryBottleEthanol: 3
     DrinkBottleOfNothingFull: 1
