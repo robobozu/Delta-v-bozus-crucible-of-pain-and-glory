@@ -7,7 +7,6 @@
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
         reagents:
         - ReagentId: IceCreamAppleCaramel
           Quantity: 30
